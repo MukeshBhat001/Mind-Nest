@@ -1,0 +1,119 @@
+/**
+ * Authentication Modal Styles (External CSS)
+ */
+.auth-modal {
+  padding: 32px;
+}
+
+.auth-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.auth-title {
+  font-size: 1.6rem;
+  color: var(--sage-900);
+  margin-bottom: 6px;
+}
+
+.auth-subtitle {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.auth-tabs {
+  display: flex;
+  background-color: var(--sage-100);
+  border-radius: var(--radius-full);
+  padding: 4px;
+  margin-bottom: 24px;
+}
+
+.auth-tab-btn {
+  flex: 1;
+  padding: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border-radius: var(--radius-full);
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+}
+
+.auth-tab-btn.active {
+  background-color: var(--white);
+  color: var(--sage-900);
+  box-shadow: var(--shadow-sm);
+}
+
+.demo-credentials-box {
+  background-color: var(--sand-50);
+  border: 1px dashed var(--border-medium);
+  border-radius: var(--radius-md);
+  padding: 14px;
+  margin-bottom: 20px;
+}
+
+.demo-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--sage-800);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.demo-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.demo-btn {
+  flex: 1;
+  padding: 6px 10px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  background-color: var(--white);
+  border: 1px solid var(--border-medium);
+  color: var(--sage-800);
+  transition: all 0.2s;
+}
+
+.demo-btn:hover {
+  background-color: var(--sage-100);
+  border-color: var(--sage-400);
+}
+
+.password-meter-track {
+  height: 4px;
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 2px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+.password-meter-fill {
+  height: 100%;
+  transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  padding: 6px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-modal-btn:hover {
+  background-color: var(--sage-100);
+  color: var(--sage-900);
+}

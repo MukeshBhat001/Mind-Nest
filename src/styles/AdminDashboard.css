@@ -1,0 +1,91 @@
+/**
+ * Administrator Dashboard Stylesheet (External CSS)
+ */
+.admin-wrapper {
+  padding: 40px 0 80px;
+}
+
+.admin-header {
+  background-color: var(--white);
+  padding: 24px 30px;
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--border-medium);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.admin-badge {
+  background-color: #fbe9e7;
+  color: #c86d51;
+  border: 1px solid #ffccbc;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+  background-color: var(--white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-sm);
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.admin-table th {
+  background-color: var(--sage-100);
+  color: var(--sage-900);
+  font-weight: 700;
+  padding: 14px 18px;
+  border-bottom: 2px solid var(--border-medium);
+  white-space: nowrap;
+}
+
+.admin-table td {
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border-light);
+  color: var(--text-primary);
+  vertical-align: middle;
+}
+
+.admin-table tr:hover {
+  background-color: var(--sand-50);
+}
+
+.action-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.action-btn {
+  padding: 6px;
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-medium);
+  background-color: var(--white);
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-btn:hover {
+  background-color: var(--sage-100);
+  color: var(--sage-900);
+}
+
+.action-btn.delete:hover {
+  background-color: #ffebee;
+  color: #c62828;
+  border-color: #ef9a9a;
+}

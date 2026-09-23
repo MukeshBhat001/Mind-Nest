@@ -1,0 +1,6 @@
+{
+  "name": "Mind Nest: A Safe Space to Learn, Breathe, and Grow",
+  "description": "A mindful wellness web application featuring guided meditation audio & video, interactive breathing exercises, self-assessment quizzes, and progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

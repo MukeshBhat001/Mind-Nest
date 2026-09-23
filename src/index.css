@@ -1,0 +1,5 @@
+/**
+ * Mind Nest Styles Entry
+ * Standard CSS implementation (NO Tailwind or external CSS frameworks)
+ */
+@import "./styles/global.css";

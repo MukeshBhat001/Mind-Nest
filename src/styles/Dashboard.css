@@ -1,0 +1,109 @@
+/**
+ * Member Dashboard Stylesheet (External CSS)
+ */
+.dashboard-wrapper {
+  padding: 40px 0 80px;
+}
+
+.profile-card {
+  background-color: var(--white);
+  border-radius: var(--radius-xl);
+  padding: 30px;
+  border: 1px solid var(--border-medium);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.profile-info-group {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-avatar-lg {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--sage-200);
+}
+
+.streak-card {
+  background: linear-gradient(135deg, var(--sage-600), var(--sage-800));
+  color: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: var(--shadow-md);
+}
+
+.streak-number {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  font-family: var(--font-serif);
+}
+
+.stat-widget {
+  background-color: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 22px;
+  border: 1px solid var(--border-light);
+  box-shadow: var(--shadow-sm);
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--sage-900);
+  line-height: 1.1;
+  margin-bottom: 4px;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.dashboard-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+  border-bottom: 2px solid var(--sage-100);
+  padding-bottom: 4px;
+}
+
+.dashboard-tab-btn {
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dashboard-tab-btn.active {
+  color: var(--sage-800);
+  border-bottom-color: var(--sage-600);
+}
+
+.activity-item {
+  background-color: var(--white);
+  border-radius: var(--radius-md);
+  padding: 16px 20px;
+  border: 1px solid var(--border-light);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
